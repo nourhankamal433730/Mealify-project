@@ -1,0 +1,644 @@
+
+@media (max-width: 600px) {
+  .nav {
+    .container {
+      width: 90%;
+      h1 {
+        font-size: 25px;
+      }
+      .nav-links ul {
+        margin-right: 0;
+        gap: 10px;
+      }
+    }
+  }
+
+  .home {
+    height: auto;
+
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5%;
+
+      .imge {
+        width: 90%;
+        /* margin-top: 1%; */
+      }
+
+      .content {
+        width: 90%;
+        text-align: center;
+        margin-top: 25%;
+
+        .btns {
+          a.btn-main {
+            padding: 9px;
+          }
+        }
+      }
+    }
+  }
+
+  .chefs {
+    .container {
+      margin-bottom: 3%;
+      width: 90%;
+
+      .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .card {
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  .gallary {
+    height: auto;
+    margin-top: 100rem;
+    .container {
+      width: 90%;
+
+      .head {
+        p {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+      }
+
+      .gallary-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        /* width: 100%; */
+
+        .cont-box {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .contact {
+    height: auto;
+    margin-top: 4%;
+
+    .container {
+      width: 100%;
+
+      .head {
+        padding: 0.5rem;
+        margin-top: 2%;
+
+        h2 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: 3rem;
+        }
+      }
+
+      .cont-map {
+        height: 15rem;
+        margin-bottom: 7rem;
+      }
+
+      .details {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: auto;
+
+        .add,
+        .email,
+        .call,
+        .open {
+          width: 90%;
+          margin-bottom: 10px;
+        }
+
+        .icon {
+          width: 40px;
+          height: 40px;
+        }
+
+        h3 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      form {
+        padding: 0.625rem;
+        margin-bottom: 3rem;
+        .form-row {
+          flex-direction: column;
+          width: 100%;
+
+          .form-group {
+            width: 100%;
+            padding: 0.5rem;
+          }
+        }
+
+        .form-group {
+          input,
+          textarea {
+            padding: 8px;
+            font-size: 14px;
+          }
+
+          textarea {
+            height: 100px;
+          }
+
+          button {
+            width: 35%;
+            padding: 12px;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .container {
+      flex-direction: column;
+      align-items: center;
+
+      .about,
+      .details {
+        width: 100%;
+      }
+
+      .sub {
+        width: 100%;
+        .sub-box {
+          .sub-group {
+            gap: 5px;
+
+            input {
+              width: 80%;
+            }
+          }
+        }
+      }
+
+      .links2 ul {
+        margin-top: 10px;
+
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .nav {
+    .container {
+      width: 90%;
+      h1 {
+        font-size: 30px; 
+        
+      }
+      .nav-links ul {
+        margin-right: 0;
+        gap: 15px; 
+      }
+    }
+  }
+
+  .home {
+    height: auto;
+
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5%;
+
+      .imge {
+        width: 90%;
+      }
+
+      .content {
+        width: 90%;
+        text-align: center;
+        margin-top: 20%;
+
+        .btns {
+          a.btn-main {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .chefs {
+    .container {
+      margin-bottom: 3%;
+      width: 90%;
+
+      .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        .card {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .gallary {
+    height: auto;
+    margin-top: 110rem;
+
+    .container {
+      width: 90%;
+      margin-top: 5%;
+      .head {
+        p {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+
+      .gallary-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .cont-box {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .contact {
+    height: auto;
+    margin-top: 5%;
+
+    .container {
+      width: 90%;
+
+      .head {
+        padding: 1rem;
+        margin-top: 2%;
+
+        h2 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: 3.5rem;
+        }
+      }
+
+      .cont-map {
+        /* height: 50%; */
+        /* margin-bottom: 5rem; */
+        width: 100%;
+      }
+
+      .details {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: auto;
+
+        .add,
+        .email,
+        .call,
+        .open {
+          width: 100%;
+          margin-bottom: 2px;
+        }
+
+        .icon {
+          width: 50px;
+          height: 50px;
+        }
+
+        h3 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      form {
+        padding: 1rem;
+        margin-bottom: 3rem;
+
+        .form-row {
+          flex-direction: column;
+          width: 100%;
+
+          .form-group {
+            width: 100%;
+            padding: 0.5rem;
+          }
+        }
+
+        .form-group {
+          input,
+          textarea {
+            padding: 10px;
+            font-size: 15px;
+          }
+
+          textarea {
+            height: 120px;
+          }
+
+          button {
+            width: 30%;
+            padding: 12px;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .container {
+      flex-direction: column;
+      align-items: center;
+
+      .about,
+      .details {
+        width: 100%;
+      }
+
+      .sub {
+        width: 100%;
+        .sub-box {
+          .sub-group {
+            gap: 5px;
+
+            input {
+              width: 80%;
+            }
+          }
+        }
+      }
+
+      .links2 ul {
+        margin-top: 10px;
+
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .nav {
+    .container {
+      width: 90%; 
+      display: flex;
+      align-items: center;
+
+      h1 {
+        font-size: 2rem; 
+      }
+      .nav-links
+      {
+        display: flex;
+        ul {
+          margin-right: 0;
+          gap: 15px;
+          display: flex;
+        }
+      } 
+    }
+  }
+
+  .home {
+    height: auto;
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5%;
+ 
+      .imge {
+        width: 90%;
+      }
+
+      .content {
+        width: 90%;
+        text-align: center;
+        margin-top: 20%;
+
+        h2{
+          font-size: 5rem;
+        }
+
+        .btns {
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          a.btn-main {
+            padding: 10px;
+           
+          }
+        }
+      }
+    }
+  }
+
+  .chefs {
+    height: auto;
+    .container {
+      margin-bottom: 3%;
+      width: 100%;
+
+      .cards {
+        flex-wrap: wrap;
+        .card {
+          width: 47.5%; 
+          margin-right: 0; 
+          /* margin: 5px; */
+          
+        }
+      }
+    }
+  }
+
+
+  .gallary {
+    height: auto;
+    margin-top: rem;
+
+    .container {
+      width: 90%;
+      margin-top: 5%;
+      margin-bottom: 3%;
+      .head {
+        p {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+
+      .gallary-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .cont-box {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+  .contact {
+    height: auto;
+    margin-top: 5%;
+
+    .container {
+      width: 90%;
+
+      .head {
+        padding: 1rem;
+        margin-top: 2%;
+
+        h2 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: 3.5rem;
+        }
+      }
+
+      .cont-map {
+      
+        width: 100%;
+      }
+
+      .details {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: auto;
+
+        .add,
+        .email,
+        .call,
+        .open {
+          width: 100%;
+          margin-bottom: 2px;
+        }
+
+        .icon {
+          width: 50px;
+          height: 50px;
+        }
+
+        h3 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      form {
+        padding: 1rem;
+        margin-bottom: 3rem;
+
+        .form-row {
+          flex-direction: column;
+          width: 100%;
+
+          .form-group {
+            width: 100%;
+            padding: 0.5rem;
+          }
+        }
+
+        .form-group {
+          input,
+          textarea {
+            padding: 10px;
+            font-size: 15px;
+          }
+
+          textarea {
+            height: 120px;
+          }
+
+          button {
+            width: 30%;
+            padding: 12px;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+
+ footer {
+    .container {
+      flex-direction: column;
+      align-items: center;
+
+      .about,
+      .details {
+        width: 100%;
+      }
+
+      .sub {
+        width: 100%;
+        .sub-box {
+          .sub-group {
+            gap: 5px;
+
+            input {
+              width: 80%;
+            }
+          }
+        }
+      }
+
+      .links2 ul {
+        margin-top: 10px;
+
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+
